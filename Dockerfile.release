@@ -1,4 +1,4 @@
-FROM debian:12
+FROM --platform=linux/arm64 debian:12
 
 ENV NODE_ENV "production"
 ENV SALTCORN_DISABLE_UPGRADE "true"
